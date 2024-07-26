@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: #f4e5d6;
+
+}
+
+.background {
+    background-image: url("./Assets/ayodhya.webp");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    /* background-color: #f4e5d6; */
+
+}
+
+.space-adjust {
+    margin: 12px 200px;
+}
+
+.fo-si {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.box-shad {
+    /* box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px; */
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#blur-bg {
+    background: rgb(237, 237, 237, .1);
+    backdrop-filter: blur(10px);
+    display: none;
+}
