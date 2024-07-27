@@ -17,17 +17,17 @@
 </head>
 
 <body>
-    <div class="container-fluid background text-light">
-        <header class="row mb-3 p-2">
-            <h1 class="col-10 h2 mt-2 me-5 text-danger fw-bolder">Kingsukh <span class="h4">Guest House</span></h1>
-            <a href="https://wa.link/at5ion" target="_blank" class="col-1 btn btn-danger h4 mt-2">
-                Book now
-            </a>
+    <div class="container-fluid background">
+        <header class="row mb-3 p-2" id="Home">
+            <h1 class="col-10 h2 mt-2 text-danger fw-bolder">Kingsukh <span class="h4">Guest House</span></h1>
+            <span class="col-2 mt-2"><a href="https://wa.link/at5ion" target="_blank" class="btn btn-outline-danger text-uppercase px-3 py-2 fw-medium border border-2 border-danger">
+                Book Now
+            </a></span>
         </header>
 
         <main class="container-xxl">
             <!-- Home -->
-            <section class="row">
+            <section class="row mb-5">
                 <div class="col-8 mt-5">
                     <div class="bg-light text-dark text-center rounded-4 py-5 mt-5 mx-5 box-shad">
                         <h2 class="display-4">Make Yourself At Home<br />In Our <span
@@ -43,45 +43,77 @@
                 </div>
                 <div class="col-4 d-flex justify-content-center align-items-center">
                     <div>
-                        <ul class="nav flex-column lead rounded-3 mt-5 mx-5" id="blur-bg">
+                        <ul class="nav flex-column lead rounded-3 mt-5 mx-5 blur-bg" id="blur-bg">
                             <li class="nav-item border-bottom">
-                                <a class="nav-link text-light" href="#">About Us</a>
+                                <a class="nav-link text-light" href="#About">About Us</a>
                             </li>
                             <li class="nav-item border-bottom">
-                                <a class="nav-link text-light" href="#">Our Living Rooms</a>
+                                <a class="nav-link text-light" href="#Rooms">Our Living Rooms</a>
                             </li>
                             <li class="nav-item border-bottom">
-                                <a class="nav-link text-light" href="#">Our Services</a>
+                                <a class="nav-link text-light" href="#Services">Our Services</a>
                             </li>
                             <li class="nav-item border-bottom">
-                                <a class="nav-link text-light" href="#">View Gallery</a>
+                                <a class="nav-link text-light" href="#Gallery">View Gallery</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="#">Contact Us</a>
+                                <a class="nav-link text-light" href="#Contact">Contact Us</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </section>
+            <br><br><br>
 
-            <!-- Navbar -->
-            <!-- <nav class="navbar navbar-expand fixed-bottom space-adjust">
-                <div class="container-fluid justify-content-center bg-danger navbar-dark bg-opacity-75 rounded-pill">
-                    <div class="navbar-nav">
-                        <a href="#Home" class="nav-link  fw-medium mx-4 active">Home</a>
-                        <a href="#About" class="nav-link  fw-medium mx-4 disabled">About</a>
-                        <a href="#Rooms" class="nav-link  fw-medium mx-4">Rooms</a>
-                        <a href="#Services" class="nav-link  fw-medium mx-4">Services</a>
-                        <a href="#Gallery" class="nav-link fw-medium  mx-4">Gallery</a>
-                        <a href="#Contact" class="nav-link  fw-medium mx-4">Contact</a>
-                    </div>
+            <!-- About -->
+            <section class="row py-5" id="About">
+                <div class="col-5 about-img">
+                    <img src="./Assets/out.jpg" alt="Guest house image" class="float-end rounded-3 img-fluid"/>
+                    <span class="mt-2"><a href="https://wa.link/at5ion" target="_blank" class="btn btn-outline-light text-uppercase px-3 py-2 fw-medium blur-bg">
+                        Book Now
+                    </a></span>
                 </div>
-            </nav> -->
+                <div class="col-7">
+                    <h2 class="text-uppercase about text-danger">About Us</h2>
+                    <p></p>
+                    <p class="display-6">The Best Holidays Start Here!</p>
+                    <p class="lead">Embark on a tranquil journey at our Kingsukh Guest House, enveloped by the scenic
+                        allure of Biharinath Hill, Baranti Hill, Susunia Hill, Joychandi Hill, Garhpanchkot, Baranti
+                        Dam, Maithon Dam, and the captivating Panchat Dam. Revel in the embrace of comfort, relish
+                        delightful meals, and unwind in our verdant garden oasis. Your ideal retreat beckons, promising
+                        a harmonious blend of nature's beauty and heartfelt hospitality. Explore the hidden gems of
+                        Purulia, creating memories that linger long after your stay.</p>
+                    <p class="fw-medium"><a href="https://maps.app.goo.gl/7wYUEB4tvR7NMHbcA" target="_blank">Address:
+                            Beside Barshal
+                            Water Tank, Manpur, Barhanti, West Bengal - 723156</a></p>
+                    <p class="fw-medium">
+                        <a href="tel:+919007062180"> Contact us: +91 9007062180 </a>
+                    </p>
+                    
+                </div>
+                <!-- Navbar -->
+                <div class="col">
+                    <nav class="navbar navbar-expand sticky-top space-adjust">
+                        <div class="container-fluid justify-content-center bg-danger navbar-dark  rounded-pill">
+                            <div class="navbar-nav">
+                                <a href="#Home" class="nav-link  fw-medium mx-4">Home</a>
+                                <a href="#About" class="nav-link  fw-medium mx-4">About</a>
+                                <a href="#Rooms" class="nav-link  fw-medium mx-4">Rooms</a>
+                                <a href="#Services" class="nav-link  fw-medium mx-4">Services</a>
+                                <a href="#Gallery" class="nav-link fw-medium  mx-4">Gallery</a>
+                                <a href="#Contact" class="nav-link  fw-medium mx-4">Contact</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+            <br><br><br>
+
         </main>
 
         <!-- Footer -->
         <footer>
-            <!-- <h2>Footer</h2> -->
+            <!-- <h2 class="text-dark">Footer</h2> -->
         </footer>
 
     </div>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Fira+Sans+Condensed&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +7,8 @@
 
 html,
 body {
-  scroll-behavior: smooth;
-  background-color: #f4e5d6;
+    scroll-behavior: smooth;
+    background-color: #f4e5d6;
 
 }
 
@@ -36,8 +38,33 @@ body {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-#blur-bg {
+.blur-bg {
     background: rgb(237, 237, 237, .1);
     backdrop-filter: blur(10px);
+}
+
+#blur-bg {
     display: none;
+}
+
+.about-img img {
+    width: 450px;
+    height: 500px;
+}
+
+.about-img {
+    position: relative;
+}
+
+.about-img span {
+    position: absolute;
+    top: 85%;
+    left: 45%;
+}
+
+.about {
+    position: relative;
+    right: 15%;
+    font-size: 80px;
+    letter-spacing: 5px;
 }
