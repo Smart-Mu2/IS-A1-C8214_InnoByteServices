@@ -17,9 +17,7 @@ body {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
     height: 500px;
-    /* background-color: #f4e5d6; */
 
 }
 
@@ -33,8 +31,6 @@ body {
 }
 
 .box-shad {
-    /* box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px; */
-
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
@@ -53,18 +49,102 @@ body {
 }
 
 .about-img {
-    position: relative;
-}
-
-.about-img span {
-    position: absolute;
-    top: 85%;
-    left: 45%;
+    background-image: url("./Assets/out.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-color: black;
+    height: 500px;
 }
 
 .about {
     position: relative;
     right: 15%;
-    font-size: 80px;
+    font-size: 40px;
     letter-spacing: 5px;
+}
+
+.line {
+    display: inline-block;
+    height: 3px; width: 100px;
+    background-color: #c07830;
+}
+
+#abo-para {
+    text-align: justify;
+}
+
+
+/* Media Query */
+@media screen and (max-width:576px) {
+    .book-now {
+        display: none;
+    }
+    .mob-view {
+        display: none;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .mob-view {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .mob-view {
+        display: block;
+    }
+    .mob-view1 {
+        display: none;
+    }
+    .space-adjust {
+        margin: 12px 20px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .about {
+        position: relative;
+        right: 15%;
+        font-size: 80px;
+        letter-spacing: 5px;
+    }
+
+    .line {
+        display: inline-block;
+        height: 6px; width: 200px;
+        background-color: #c07830;
+    }
+}
+
+@media screen and (max-width:992px) {
+    #para-abo {
+        font-size: 10px;
+    }
+    #abo-para {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #para-abo {
+        font-size: 35px;
+    }
+    #abo-para {
+        font-size: 17px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:1200px) {
+
+}
+
+@media screen and (min-width:1400px) {
+
 }
