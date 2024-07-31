@@ -32,9 +32,9 @@
             <!-- Home -->
             <section class="row mb-5">
                 <header class="row mb-3 p-2" id="Home">
-                    <h1 class="col-sm-8 col-8 h2 mt-2 text-danger fw-bolder">Kingsukh <span class="h4">Guest
+                    <h1 class="col-8 h2 mt-2 text-danger fw-bolder">Kingsukh <span class="h4">Guest
                             House</span></h1>
-                    <span class="col-sm-4 col-4 mt-2"><a href="https://wa.link/at5ion" target="_blank"
+                    <span class="col-4 mt-2"><a href="https://wa.link/at5ion" target="_blank"
                             class="btn btn-outline-danger text-uppercase px-2 py-2 fw-medium border border-2 border-danger float-end">
                             Book Now
                         </a></span>
@@ -51,11 +51,15 @@
                                 Explore <i class="bi bi-arrow-bar-right"></i>
                             </a>
                         </span>
-                        <span class="mob-view1">
-                            <a href="#Home" class="btn btn-danger">
-                                Explore <i class="bi bi-arrow-bar-right"></i>
-                            </a>
-                        </span>
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="mob-view1">
+                                <a href="#Home" class="btn btn-danger" onclick="sideNavbar()">
+                                    Explore <i class="bi bi-arrow-bar-right"></i>
+                                </a>
+                            </span>
+                        </button>
                     </div>
                 </div>
 
@@ -84,49 +88,87 @@
             <br><br><br>
 
             <!-- About -->
-            <section class="row py-3 my-4 " id="About">
-                <div class="col-6 col-lg-4 ms-lg-5 mt-4">
-                    <div class="container-sm about-img rounded-3 ms-lg-4 d-flex justify-content-center align-items-end pb-5">
-                        <!-- <img src="./Assets/out.jpg" alt="Guest house image" class="float-end rounded-3 img-fluid" /> -->
-                        <span><a href="https://wa.link/at5ion" target="_blank"
-                                class="btn btn-outline-light text-uppercase px-3 py-2 fw-medium blur-bg">
-                                Book Now
-                            </a></span>
+            <section class="py-3 my-4 " id="About">
+                <div class="row">
+                    <div class="col-12 col-md-5 col-lg-4 ms-lg-5 mt-4">
+                        <div
+                            class="container-sm about-img rounded-3 ms-lg-4 d-flex justify-content-center align-items-end pb-5">
+                            <!-- <img src="./Assets/out.jpg" alt="Guest house image" class="float-end rounded-3 img-fluid" /> -->
+                            <span><a href="https://wa.link/at5ion" target="_blank"
+                                    class="btn btn-outline-light text-uppercase px-3 py-2 fw-medium blur-bg">
+                                    Book Now
+                                </a></span>
+                        </div><br>
+                    </div>
+                    <div class="col-12 col-md-7 col-lg-7 ms-lg-4 mt-lg-2">
+                        <h2 class="text-uppercase about text-danger">About Us</h2>
+                        <div class="line ms-3 my-3"></div>
+                        <p class="display-6 fw-normal">The Best Holidays Start Here!</p>
+                        <p class="lead fw-normal" id="abo-para">Embark on a tranquil journey at our Kingsukh Guest
+                            House,
+                            enveloped by the scenic
+                            allure of Biharinath Hill, Baranti Hill, Susunia Hill, Joychandi Hill, Garhpanchkot, Baranti
+                            Dam, Maithon Dam, and the captivating Panchat Dam. Revel in the embrace of comfort, relish
+                            delightful meals, and unwind in our verdant garden oasis. Your ideal retreat beckons,
+                            promising
+                            a harmonious blend of nature's beauty and heartfelt hospitality. Explore the hidden gems of
+                            Purulia, creating memories that linger long after your stay.</p>
+                        <p class="fw-medium" id="abo-para"><a href="https://maps.app.goo.gl/7wYUEB4tvR7NMHbcA"
+                                target="_blank">Address:
+                                Beside Barshal
+                                Water Tank, Manpur, Barhanti, West Bengal - 723156</a></p>
+                        <p class="fw-medium" id="abo-para">
+                            <a href="tel:+919007062180"> Contact us: +91 9007062180 </a>
+                        </p>
                     </div>
                 </div>
-                <div class="col-6 col-lg-7 ms-lg-4 mt-lg-3">
-                    <h2 class="text-uppercase about text-danger ">About Us</h2>
-                    <div class="line ms-3 my-3"></div>
-                    <p class="display-6 fw-normal" id="para-abo">The Best Holidays Start Here!</p>
-                    <p class="lead fw-normal" id="abo-para">Embark on a tranquil journey at our Kingsukh Guest House,
-                        enveloped by the scenic
-                        allure of Biharinath Hill, Baranti Hill, Susunia Hill, Joychandi Hill, Garhpanchkot, Baranti
-                        Dam, Maithon Dam, and the captivating Panchat Dam. Revel in the embrace of comfort, relish
-                        delightful meals, and unwind in our verdant garden oasis. Your ideal retreat beckons, promising
-                        a harmonious blend of nature's beauty and heartfelt hospitality. Explore the hidden gems of
-                        Purulia, creating memories that linger long after your stay.</p>
-                    <p class="fw-medium" id="abo-para"><a href="https://maps.app.goo.gl/7wYUEB4tvR7NMHbcA" target="_blank">Address:
-                            Beside Barshal
-                            Water Tank, Manpur, Barhanti, West Bengal - 723156</a></p>
-                    <p class="fw-medium" id="abo-para">
-                        <a href="tel:+919007062180"> Contact us: +91 9007062180 </a>
-                    </p>
 
-                </div>
                 <!-- Navbar -->
-                <div class="col">
-                    <nav class="navbar navbar-expand sticky-bottom space-adjust">
-                        <div class="container-fluid justify-content-center bg-danger navbar-dark  rounded-pill">
-                            <div class="navbar-nav">
-                                <a href="#Home" class="nav-link  fw-medium mx-4">Home</a>
-                                <a href="#About" class="nav-link  fw-medium mx-4">About</a>
-                                <a href="#Rooms" class="nav-link  fw-medium mx-4">Rooms</a>
-                                <a href="#Services" class="nav-link  fw-medium mx-4">Services</a>
-                                <a href="#Gallery" class="nav-link fw-medium  mx-4">Gallery</a>
-                                <a href="#Contact" class="nav-link  fw-medium mx-4">Contact</a>
-                            </div>
-                        </div>
-                    </nav>
+                <nav class="nav-bar fixed-bottom sticky-bottom mx-5 mb-2">
+                    <ul class="nav-bar-list p-2 bg-danger mx-5 bor-radi">
+                        <li class="nav-bar-link"><a href="#Home" class="text-light mx-lg-4 mx-3 text-center"><i
+                                    class="bi bi-house-heart-fill"></i> Home</a></li>
+                        <li class="nav-bar-link"><a href="#About" class="text-light mx-lg-4 mx-3 text-center"><i
+                                    class="bi bi-file-earmark-person-fill"></i> About</a></li>
+                        <li class="nav-bar-link"><a href="#Rooms" class="text-light mx-lg-4 mx-3 text-center"><i
+                                    class="bi bi-houses-fill"></i> Rooms</a></li>
+                        <li class="nav-bar-link"><a href="#Services" class="text-light mx-lg-4 mx-3 text-center"><i
+                                    class="bi bi-building-fill"></i> Services</a></li>
+                        <li class="nav-bar-link"><a href="#Gallery" class="text-light mx-lg-4 mx-3 text-center"><i
+                                    class="bi bi-file-image"></i> Gallery</a></li>
+                        <li class="nav-bar-link"><a href="#Contact" class="text-light mx-lg-4 mx-3 text-center"><i
+                                    class="bi bi-person-lines-fill"></i> Contact</a></li>
+                    </ul>
+                    <div class="nav-bar-font float-end mb-3 bg-danger text-light bor-radi px-2">
+                        <i class="bi bi-list" onclick="sideNavbar()"></i>
+                    </div>
+                </nav>
+            
+                <!-- Side navbar -->
+                <div class="side-navbar bg-danger text-light">
+                    <p onclick="closeSideNavbar()">
+                        <i class="bi bi-x"></i>
+                    </p>
+                    <div>
+                        <h3>Kingsukh <p class="h4">Guest House</p>
+                        </h3>
+                    </div>
+                    <hr style="margin-top: 10px;">
+                    <ul class="navbar-ul">
+                        <li class="side-navbar-link"><a href="#Home" class="text-light" onclick="closeSideNavbar()"><i
+                                    class="bi bi-house-heart-fill"></i> Home</a></li>
+                        <li class="side-navbar-link"><a href="#About" class="text-light" onclick="closeSideNavbar()"><i
+                                    class="bi bi-file-earmark-person-fill"></i> About</a></li>
+                        <li class="side-navbar-link"><a href="#Rooms" class="text-light" onclick="closeSideNavbar()"><i
+                                    class="bi bi-houses-fill"></i> Rooms</a></li>
+                        <li class="side-navbar-link"><a href="#Services" class="text-light" onclick="closeSideNavbar()"
+                                target="_blank"><i class="bi bi-building-fill"></i> Services</a>
+                        </li>
+                        <li class="side-navbar-link"><a href="#Gallery" class="text-light" onclick="closeSideNavbar()"><i class="bi bi-file-image"></i>
+                                Gallery</a></li>
+                        <li class="side-navbar-link"><a href="#Contact" class="text-light" onclick="closeSideNavbar()"><i
+                                    class="bi bi-person-lines-fill"></i> Contact</a></li>
+                    </ul>
                 </div>
             </section>
             <br><br><br>
