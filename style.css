@@ -10,6 +10,7 @@ body {
 
 }
 
+/* Home */
 .background {
     background-image: url("./Assets/ayodhya.webp");
     background-position: center center;
@@ -17,10 +18,6 @@ body {
     background-repeat: no-repeat;
     height: 500px;
 
-}
-
-.space-adjust {
-    margin: 12px 200px;
 }
 
 .fo-si {
@@ -32,24 +29,21 @@ body {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
+#blur-bg {
+    display: none;
+}
+
 .blur-bg {
     background: rgb(237, 237, 237, .1);
     backdrop-filter: blur(10px);
 }
 
-#blur-bg {
-    display: none;
-}
 
-.about-img img {
-    width: 450px;
-    height: 500px;
-}
-
+/* About */
 .about-img {
     background-image: url("./Assets/out.jpg");
-    background-position:center;
-    background-size:cover;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     display: inline-block;
     height: 500px;
@@ -62,20 +56,13 @@ body {
 
 .line {
     display: inline-block;
-    height: 3px; width: 100px;
+    height: 3px;
+    width: 100px;
     background-color: #c07830;
 }
 
 #abo-para {
     text-align: justify;
-}
-
-.bor-radi {
-    border-radius: 10px;
-}
-
-#close {
-    display: none;
 }
 
 /* Navbar */
@@ -85,13 +72,13 @@ body {
     justify-content: space-evenly;
 }
 
-.nav-bar-link > a {
+.nav-bar-link>a {
     text-decoration: none;
     font-weight: 500;
 
 }
 
-.nav-bar-link > a:hover {
+.nav-bar-link>a:hover {
     text-decoration: underline;
     font-weight: bold;
 }
@@ -100,9 +87,8 @@ body {
     display: none;
 }
 
-.nav-bar div {
-    font-size: 30px;
-    font-weight: bolder;
+.bor-radi {
+    border-radius: 10px;
 }
 
 /* Side navbar */
@@ -117,7 +103,7 @@ body {
     transition: 2s;
 }
 
-.side-navbar>p {
+.side-navbar > p {
     text-align: right;
     font-size: 25px;
 }
@@ -145,12 +131,9 @@ body {
     .book-now {
         display: none;
     }
+
     .mob-view {
         display: none;
-    }
-    .about {
-        font-size: 40px;
-        letter-spacing: 5px;
     }
 }
 
@@ -166,13 +149,15 @@ body {
     .mob-view {
         display: block;
     }
+
     .mob-view1 {
         display: none;
     }
+
     .space-adjust {
         margin: 12px 20px;
     }
-    
+
 }
 
 /* lg */
@@ -182,9 +167,8 @@ body {
     }
 
     .line {
-        display: inline-block;
-        height: 6px; width: 200px;
-        background-color: #c07830;
+        height: 6px;
+        width: 200px;
     }
 }
 
@@ -196,13 +180,13 @@ body {
 
 @media screen and (max-width:768px) {
     .about-img {
-        background-size:contain;
+        background-size: contain;
     }
-    .bor-radi {
-        border-radius: 10px;
-    }
+
     .nav-bar-font {
         display: block;
+        font-size: 30px;
+        font-weight: bolder;
     }
 
     .nav-bar-list {
@@ -211,11 +195,7 @@ body {
 }
 
 /* xl */
-@media screen and (min-width:1200px) {
-
-}
+@media screen and (min-width:1200px) {}
 
 /* xxl */
-@media screen and (min-width:1400px) {
-
-}
+@media screen and (min-width:1400px) {}
