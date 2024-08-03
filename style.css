@@ -233,7 +233,7 @@ body {
 }
 
 @media screen and (max-width:1200px) {
-    #abo-para {
+    #abo-para{
         font-size: 17px;
     }
 }
@@ -242,21 +242,25 @@ body {
     .room-img , .room-img-2 {
         height: 300px;
     }
+    #abo-para1 , #abo-para2 , #para-abo , #para-abo1{
+        font-size: 17px;
+    }
 }
 
 @media screen and (max-width:768px) {
     .about-img {
         background-size: contain;
     }
-
     .nav-bar-font {
         display: block;
         font-size: 30px;
         font-weight: bolder;
     }
-
     .nav-bar-list {
         display: none;
+    }
+    .room-img , .room-img-2 {
+        height: 200px;
     }
 }
 
