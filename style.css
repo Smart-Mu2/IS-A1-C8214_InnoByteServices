@@ -25,10 +25,6 @@ body {
     font-weight: bolder;
 }
 
-.box-shad {
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
-
 #blur-bg {
     display: none;
 }
@@ -38,6 +34,10 @@ body {
     backdrop-filter: blur(10px);
 }
 
+.box-shad {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+/* --- */
 
 /* About */
 .about-img {
@@ -61,9 +61,10 @@ body {
     background-color: #c07830;
 }
 
-#abo-para {
+.abo-para {
     text-align: justify;
 }
+/* --- */
 
 /* Navbar */
 .nav-bar-list,
@@ -87,9 +88,15 @@ body {
     display: none;
 }
 
+.nav-sticky {
+    position: sticky;
+    top: 580px;
+}
+
 .bor-radi {
     border-radius: 10px;
 }
+/* --- */
 
 /* Side navbar */
 .side-navbar {
@@ -124,6 +131,59 @@ body {
 .side-navbar-link > a:hover {
     font-weight: bold;
 }
+/* --- */
+
+/* Rooms */
+.back-col {
+    background-color: #08BDBD;
+}
+
+.box-shado li {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.room-img {
+    background-image: url("./Assets/small.jpg");
+}
+
+.room-img-2 {
+    background-image: url("./Assets/large.jpg");
+}
+
+.room-img , .room-img-2 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 1rem;
+}
+
+.room-img span , .room-img-2 span {
+    padding: 2px 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.iconHeartFill , #iconHeartFill {
+    display: none;
+}
+
+#Image1 , #Image2 {
+    display: none;
+    height: 100%;
+}
+
+#overlay1{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: 1;
+}
+/* --- */
+
 
 /* Media Query */
 /* xs */
@@ -178,6 +238,12 @@ body {
     }
 }
 
+@media screen and (max-width:992px) {
+    .room-img , .room-img-2 {
+        height: 300px;
+    }
+}
+
 @media screen and (max-width:768px) {
     .about-img {
         background-size: contain;
@@ -193,6 +259,8 @@ body {
         display: none;
     }
 }
+
+
 
 /* xl */
 @media screen and (min-width:1200px) {}

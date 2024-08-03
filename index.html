@@ -16,6 +16,11 @@
 
     <!-- Bootstrap Icon link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Font Awesome Icon Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -36,8 +41,8 @@
                     <h1 class="col-8 h2 mt-2 text-danger fw-bolder">Kingsukh <span class="h4">Guest
                             House</span></h1>
                     <span class="col-4 mt-2"><a href="https://wa.link/at5ion" target="_blank"
-                            class="btn btn-outline-danger text-uppercase p-2 fw-medium border border-2 border-danger float-end">
-                            Book Now
+                            class="btn btn-outline-danger p-2 fw-medium border border-2 border-danger float-end">
+                            BOOK NOW
                         </a></span>
                 </header>
 
@@ -85,22 +90,23 @@
             <br><br><br>
 
             <!-- About -->
-            <section class="py-3 my-4 " id="About">
+            <section class="py-3" id="About">
                 <div class="row">
                     <div class="col-12 col-md-5 col-lg-4 ms-lg-5 mt-4">
                         <div
                             class="container-sm about-img rounded-3 ms-lg-4  d-flex justify-content-center  align-items-end pb-5">
                             <span><a href="https://wa.link/at5ion" target="_blank"
-                                    class="btn btn-outline-light text-uppercase px-3 py-2 fw-medium blur-bg box-shad">
-                                    Book Now
+                                    class="btn btn-outline-light blur-bg px-3 py-2 fw-medium box-shad">
+                                    BOOK NOW
                                 </a></span>
                         </div><br>
                     </div>
                     <div class="col-12 col-md-7 ms-lg-4 mt-lg-2">
-                        <h2 class="text-uppercase about text-danger">About Us</h2>
+                        <h2 class=" about text-danger">ABOUT US</h2>
                         <div class="line ms-3 my-3"></div>
                         <p class="display-6 fw-normal">The Best Holidays Start Here!</p>
-                        <p class="lead fw-normal" id="abo-para">Embark on a tranquil journey at our Kingsukh Guest
+                        <p class="lead fw-normal abo-para" id="abo-para">Embark on a tranquil journey at our Kingsukh
+                            Guest
                             House,
                             enveloped by the scenic
                             allure of Biharinath Hill, Baranti Hill, Susunia Hill, Joychandi Hill, Garhpanchkot, Baranti
@@ -118,112 +124,199 @@
                         </p>
                     </div>
                 </div>
-
-                <!-- Navbar -->
-                <nav class="fixed-bottom mb-2">
-                    <ul class="nav-bar-list p-2 bg-danger mx-5 bor-radi box-shad">
-                        <li class="nav-bar-link"><a href="#Home" class="text-light text-center"><i
-                                    class="bi bi-house-heart-fill"></i> Home</a></li>
-                        <li class="nav-bar-link"><a href="#About" class="text-light text-center"><i
-                                    class="bi bi-file-earmark-person-fill"></i> About</a></li>
-                        <li class="nav-bar-link"><a href="#Rooms" class="text-light text-center"><i
-                                    class="bi bi-houses-fill"></i> Rooms</a></li>
-                        <li class="nav-bar-link"><a href="#Services" class="text-light text-center"><i
-                                    class="bi bi-building-fill"></i> Services</a></li>
-                        <li class="nav-bar-link"><a href="#Gallery" class="text-light text-center"><i
-                                    class="bi bi-file-image"></i> Gallery</a></li>
-                        <li class="nav-bar-link"><a href="#Contact" class="text-light text-center"><i
-                                    class="bi bi-person-lines-fill"></i> Contact</a></li>
-                    </ul>
-                    <div class="nav-bar-font float-end mb-3 bg-danger text-light bor-radi px-2">
-                        <i class="bi bi-list" onclick="sideNavbar()"></i>
-                    </div>
-                </nav>
-
-                <!-- Side navbar -->
-                <div class="side-navbar bg-danger text-light">
-                    <p onclick="closeSideNavbar()">
-                        <i class="bi bi-x"></i>
-                    </p>
-                    <div>
-                        <h3>Kingsukh <p class="h4">Guest House</p>
-                        </h3>
-                    </div>
-                    <hr>
-                    <ul class="navbar-ul">
-                        <li class="side-navbar-link"><a href="#Home" class="text-light" onclick="closeSideNavbar()"><i
-                                    class="bi bi-house-heart-fill"></i> Home</a></li>
-                        <li class="side-navbar-link"><a href="#About" class="text-light" onclick="closeSideNavbar()"><i
-                                    class="bi bi-file-earmark-person-fill"></i> About</a></li>
-                        <li class="side-navbar-link"><a href="#Rooms" class="text-light" onclick="closeSideNavbar()"><i
-                                    class="bi bi-houses-fill"></i> Rooms</a></li>
-                        <li class="side-navbar-link"><a href="#Services" class="text-light" onclick="closeSideNavbar()"
-                                target="_blank"><i class="bi bi-building-fill"></i> Services</a>
-                        </li>
-                        <li class="side-navbar-link"><a href="#Gallery" class="text-light"
-                                onclick="closeSideNavbar()"><i class="bi bi-file-image"></i>
-                                Gallery</a></li>
-                        <li class="side-navbar-link"><a href="#Contact" class="text-light"
-                                onclick="closeSideNavbar()"><i class="bi bi-person-lines-fill"></i> Contact</a></li>
-                    </ul>
-                </div>
             </section>
+            <!-- Navbar -->
+            <nav class="mb-2 nav-sticky">
+                <ul class="nav-bar-list p-2 bg-danger mx-5 bor-radi box-shad">
+                    <li class="nav-bar-link"><a href="#Home" class="text-light text-center"><i
+                                class="bi bi-house-heart-fill"></i> Home</a></li>
+                    <li class="nav-bar-link"><a href="#About" class="text-light text-center"><i
+                                class="bi bi-file-earmark-person-fill"></i> About</a></li>
+                    <li class="nav-bar-link"><a href="#Rooms" class="text-light text-center"><i
+                                class="bi bi-houses-fill"></i> Rooms</a></li>
+                    <li class="nav-bar-link"><a href="#Services" class="text-light text-center"><i
+                                class="bi bi-building-fill"></i> Services</a></li>
+                    <li class="nav-bar-link"><a href="#Gallery" class="text-light text-center"><i
+                                class="bi bi-file-image"></i> Gallery</a></li>
+                    <li class="nav-bar-link"><a href="#Contact" class="text-light text-center"><i
+                                class="bi bi-person-lines-fill"></i> Contact</a></li>
+                </ul>
+                <div class="nav-bar-font float-end mb-3 bg-danger text-light bor-radi px-2">
+                    <i class="bi bi-list" onclick="sideNavbar()"></i>
+                </div>
+            </nav>
+
+            <!-- Side navbar -->
+            <div class="side-navbar bg-danger text-light">
+                <p onclick="closeSideNavbar()">
+                    <i class="bi bi-x"></i>
+                </p>
+                <div>
+                    <h3>Kingsukh <p class="h4">Guest House</p>
+                    </h3>
+                </div>
+                <hr>
+                <ul class="navbar-ul">
+                    <li class="side-navbar-link"><a href="#Home" class="text-light" onclick="closeSideNavbar()"><i
+                                class="bi bi-house-heart-fill"></i> Home</a></li>
+                    <li class="side-navbar-link"><a href="#About" class="text-light" onclick="closeSideNavbar()"><i
+                                class="bi bi-file-earmark-person-fill"></i> About</a></li>
+                    <li class="side-navbar-link"><a href="#Rooms" class="text-light" onclick="closeSideNavbar()"><i
+                                class="bi bi-houses-fill"></i> Rooms</a></li>
+                    <li class="side-navbar-link"><a href="#Services" class="text-light" onclick="closeSideNavbar()"
+                            target="_blank"><i class="bi bi-building-fill"></i> Services</a>
+                    </li>
+                    <li class="side-navbar-link"><a href="#Gallery" class="text-light" onclick="closeSideNavbar()"><i
+                                class="bi bi-file-image"></i>
+                            Gallery</a></li>
+                    <li class="side-navbar-link"><a href="#Contact" class="text-light" onclick="closeSideNavbar()"><i
+                                class="bi bi-person-lines-fill"></i> Contact</a></li>
+                </ul>
+            </div>
             <br><br><br>
 
             <!-- Rooms -->
-            <section class="row back-col py-3" id="Rooms">
-                <!-- <div class=" bg-dark p-5"> -->
-                <h2 class="text-uppercase text-danger text-center fw-bolder">Our Living Rooms</h2>
+            <section class="container-fluid back-col py-3" id="Rooms">
+                <h2 class="text-danger text-center fw-bolder">OUR LIVING ROOMS</h2>
                 <p class="display-6 fw-normal text-light text-center">The Most Memorable Rest Time Starts Here.</p>
-                <div>
-                    <div class="bg-light rounded-3 p-3 m-3 d-flex box-shad">
-                        <img src="./Assets/small.jpg" alt="Room 1 Image" class="img-fluid img-thumbnail w-25 rounded-3 box-shad">
-                        <div class="ms-4 me-4 w-50 p-2">
-                            <h2>Cozy Haven Room</h2>
-                            <p class="ms-3 lead fw-normal mt-3">Escape to comfort in our Cozy Haven Room, a snug retreat
-                                designed for
-                                intimate relaxation.</p>
-                            <p class="ms-3 lead fw-normal mt-3">Starting from <span class="fw-medium">Rs. 1000/night</span></p>
-                            <span class="me-5 float-end"><a href="https://wa.link/at5ion" target="_blank"
-                                    class="btn btn-danger btn-sm text-uppercase p-2 rounded-3 fw-medium">
-                                    Book Now
-                                </a></span>
-                        </div>
-                        <div class="w-25 m-2 rounded-3 box-shad">
-                            <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                        </div>
+
+                <!-- Room 1 -->
+                <div class="rounded-3 py-3 ps-4 m-4 box-shad bg-light row">
+                    <div
+                        class="col-lg-4 col-11 room-img rounded-3 box-shad ms-lg-1 ms-sm-3 ms-1 mb-2 d-flex justify-content-end align-items-end">
+                        <span class="rounded-circle bg-light fs-5 mb-2 text-danger iconHeart"><i
+                                class="fa-regular fa-heart"></i></span>
+                        <span class="rounded-circle bg-light fs-5 mb-2 text-danger iconHeartFill"><i
+                                class="fa-solid fa-heart"></i></span>
+                        <span class="rounded-circle bg-light fs-5 mb-2 text-success"><i
+                                class="fa-solid fa-share"></i></span>
+                        <span class="rounded-circle bg-light fs-5 mb-2 text-primary" onclick="viewImage1()"><i
+                                class="fa-regular fa-eye"></i></span>
                     </div>
-                    <div class="bg-light rounded-3 p-3 m-3 d-flex box-shad">
-                        <img src="./Assets/large.jpg" alt="Room 2 Image" class="img-fluid img-thumbnail w-25 rounded-3 box-shad">
-                        <div class="ms-4 me-4 w-50 p-2">
-                            <h2>Spacious Serenity Suite</h2>
-                            <p class="ms-3 lead fw-normal mt-3">Indulge in luxury and ample space in our Spacious
-                                Serenity Suite, where
-                                tranquility meets roomy elegance.</p>
-                            <p class="ms-3 lead fw-normal mt-3">Starting from <span class="fw-medium">Rs. 1500/night</span></p>
-                            <span class="me-5 float-end"><a href="https://wa.link/at5ion" target="_blank"
-                                    class="btn btn-danger btn-sm text-uppercase p-2 rounded-3 fw-medium">
-                                    Book Now
-                                </a></span>
-                        </div>
-                        <div class="w-25 m-2 rounded-3 box-shad">
-                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                             </ul>   
-                        </div>
+                    <div class="ms-xl-5 ms-lg-3 me-lg-4 p-2 col-lg-4 col-12">
+                        <h2>Cozy Haven Room</h2>
+                        <p class="ms-lg-4 ms-2 me-lg-0 me-5 lead fw-normal mt-3 abo-para">Escape to comfort in our Cozy
+                            Haven Room, a snug retreat
+                            designed for
+                            intimate relaxation.</p>
+                        <p class="ms-4 lead fw-normal mt-3">Starting from <span class="fw-medium">Rs.
+                                1000/night</span></p>
+                        <span class="me-lg-4 me-5 mt-2 float-end"><a href="https://wa.link/at5ion" target="_blank"
+                                class="btn btn-danger btn-sm p-2 rounded-3 fw-medium">
+                                BOOK NOW
+                            </a></span>
+                    </div>
+                    <div class="ms-md-3 ms-lg-0 ms-2 border border-2 col-lg-3 col-11 d-flex box-shado">
+                        <ul class="list-unstyled fs-4 d-flex justify-content-evenly flex-wrap align-items-center w-100">
+                            <li title="Free Wifi"
+                                class="ms-3 me-1 me-xl-4 mt-3 mb-2 py-1 px-2 border border-1 rounded-4"><i
+                                    class="fa-solid fa-wifi"></i></li>
+                            <li title="Air-conditioning"
+                                class="ms-3 me-1 me-xl-4 mt-3 mb-2 py-1 px-2 border border-1 rounded-4"><i
+                                    class="fa-solid fa-fan"></i></li>
+                            <li title="Bathroom"
+                                class="ms-3 me-1 me-xl-4 mt-3 mb-2 py-1 px-2 border border-1 rounded-4"><i
+                                    class="fa-solid fa-bath"></i></li>
+                            <li title="Clean Restroom"
+                                class="ms-3 me-1 me-xl-4 mt-3 mb-2 py-1 px-2 border border-1 rounded-4"><i
+                                    class="fa-solid fa-restroom"></i></li>
+                            <li title="Queen Size Bed"
+                                class="ms-3 me-1 me-xl-4 mt-3 mb-2 py-1 px-2 border border-1 rounded-4"><i
+                                    class="fa-solid fa-bed"></i></li>
+                            <li title="Television Available"
+                                class="ms-3 me-1 me-xl-4 mt-3 mb-2 py-1 px-2 border border-1 rounded-4"><i
+                                    class="fa-solid fa-tv"></i></li>
+                            <li title="Landline facility"
+                                class="ms-3 me-1 me-xl-4 mt-3 mb-2 py-1 px-2 border border-1 rounded-4"><i
+                                    class="fa-solid fa-phone"></i></li>
+                            <li title="Housekeeping Service"
+                                class="ms-3 me-1 me-xl-4 mt-3 mb-2 py-1 px-2 border border-1 rounded-4"><i
+                                    class="fa-solid fa-broom"></i></li>
+                        </ul>
                     </div>
                 </div>
-                <!-- </div> -->
+
+                <!-- Room 2 -->
+                <div class="rounded-3 py-3 ps-4 m-4 box-shad bg-light row">
+                    <div
+                        class="col-lg-4 col-11 room-img-2 rounded-3 box-shad ms-lg-1 ms-sm-3 ms-1 mb-2 d-flex justify-content-end align-items-end">
+                        <span class="rounded-circle bg-light fs-5 mb-2 text-danger" id="iconHeart"><i
+                                class="fa-regular fa-heart"></i></span>
+                        <span class="rounded-circle bg-light fs-5 mb-2 text-danger" id="iconHeartFill"><i
+                                class="fa-solid fa-heart"></i></span>
+                        <span class="rounded-circle bg-light fs-5 mb-2 text-success"><i
+                                class="fa-solid fa-share"></i></span>
+                        <span class="rounded-circle bg-light fs-5 mb-2 text-primary" onclick="viewImage2()"><i
+                                class="fa-regular fa-eye"></i></span>
+                    </div>
+                    <div class="ms-xl-5 ms-lg-3 me-lg-4 p-2 col-lg-4 col-12">
+                        <h2>Spacious Serenity Suite</h2>
+                        <p class="ms-lg-4 ms-2 me-lg-0 me-5 lead fw-normal mt-3 abo-para">Indulge in luxury and ample
+                            space in our Spacious
+                            Serenity Suite, where
+                            tranquility meets roomy elegance.</p>
+                        <p class="ms-4 lead fw-normal mt-3">Starting from <span class="fw-medium">Rs.
+                                1500/night</span></p>
+                        <span class="me-lg-4 me-5 mt-2 float-end"><a href="https://wa.link/at5ion" target="_blank"
+                                class="btn btn-danger btn-sm p-2 rounded-3 fw-medium">
+                                BOOK NOW
+                            </a></span>
+                    </div>
+                    <div class="ms-md-3 ms-lg-0 ms-2 border border-2 col-lg-3 col-11 d-flex box-shado">
+                        <ul class="list-unstyled fs-4 d-flex justify-content-evenly flex-wrap align-items-center w-100">
+                            <li title="Free Wifi"
+                                class="ms-3 me-1 me-xl-4 mt-3 mb-2 py-1 px-2 border border-1 rounded-4"><i
+                                    class="fa-solid fa-wifi"></i></li>
+                            <li title="Air-conditioning"
+                                class="ms-3 me-1 me-xl-4 mt-3 mb-2 py-1 px-2 border border-1 rounded-4"><i
+                                    class="fa-solid fa-fan"></i></li>
+                            <li title="Bathroom"
+                                class="ms-3 me-1 me-xl-4 mt-3 mb-2 py-1 px-2 border border-1 rounded-4"><i
+                                    class="fa-solid fa-bath"></i></li>
+                            <li title="Clean Restroom"
+                                class="ms-3 me-1 me-xl-4 mt-3 mb-2 py-1 px-2 border border-1 rounded-4"><i
+                                    class="fa-solid fa-restroom"></i></li>
+                            <li title="Queen Size Bed"
+                                class="ms-3 me-1 me-xl-4 mt-3 mb-2 py-1 px-2 border border-1 rounded-4"><i
+                                    class="fa-solid fa-bed"></i></li>
+                            <li title="Television Available"
+                                class="ms-3 me-1 me-xl-4 mt-3 mb-2 py-1 px-2 border border-1 rounded-4"><i
+                                    class="fa-solid fa-tv"></i></li>
+                            <li title="Landline facility"
+                                class="ms-3 me-1 me-xl-4 mt-3 mb-2 py-1 px-2 border border-1 rounded-4"><i
+                                    class="fa-solid fa-phone"></i></li>
+                            <li title="Housekeeping Service"
+                                class="ms-3 me-1 me-xl-4 mt-3 mb-2 py-1 px-2 border border-1 rounded-4"><i
+                                    class="fa-solid fa-broom"></i></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="Image1">
+                    <div class="d-flex justify-content-center align-items-center fixed-top mt-5">
+                        <img src="./Assets/small.jpg" alt="Room 1 Image" class="img-fluid img-thumbnail m-lg-0 m-3"
+                            width="700px">
+                    </div>
+                    <div id="overlay1">
+                        <p class="text-bg-danger fs-3 fw-medium float-end mt-3 me-5 px-2 rounded-1"
+                            onclick="closeView1()">
+                            <i class="bi bi-x"></i>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="Image2">
+                    <div class="d-flex justify-content-center align-items-center fixed-top mt-5">
+                        <img src="./Assets/large.jpg" alt="Room 1 Image" class="img-fluid img-thumbnail m-lg-0 m-3"
+                            width="700px">
+                    </div>
+                    <div id="overlay1">
+                        <p class="text-bg-danger fs-3 fw-medium float-end mt-3 me-5 px-2 rounded-1"
+                            onclick="closeView2()">
+                            <i class="bi bi-x"></i>
+                        </p>
+                    </div>
+                </div>
 
             </section>
             <br><br><br>
