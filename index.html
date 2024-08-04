@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -163,9 +165,8 @@
                                 class="bi bi-file-earmark-person-fill"></i> About</a></li>
                     <li class="side-navbar-link"><a href="#Rooms" class="text-light" onclick="closeSideNavbar()"><i
                                 class="bi bi-houses-fill"></i> Rooms</a></li>
-                    <li class="side-navbar-link"><a href="#Services" class="text-light" onclick="closeSideNavbar()"
-                            target="_blank"><i class="bi bi-building-fill"></i> Services</a>
-                    </li>
+                    <li class="side-navbar-link"><a href="#Services" class="text-light" onclick="closeSideNavbar()"><i
+                                class="bi bi-building-fill"></i> Services</a></li>
                     <li class="side-navbar-link"><a href="#Gallery" class="text-light" onclick="closeSideNavbar()"><i
                                 class="bi bi-file-image"></i>
                             Gallery</a></li>
@@ -176,12 +177,19 @@
             <br><br><br>
 
             <!-- Rooms -->
-            <section class="container-fluid back-col py-3" id="Rooms">
-                <h2 class="text-danger text-center fw-bolder">OUR LIVING ROOMS</h2>
-                <p class="display-6 fw-normal text-light text-center">The Most Memorable Rest Time Starts Here.</p>
+            <section class="container-fluid py-3" id="Rooms">
+                <h2 class="h1 text-center text-light">
+                    <div class="line2 me-4 my-2 bg-light"></div>OUR LIVING ROOMS<div class="line2 ms-4 my-2 bg-light">
+                    </div>
+                </h2>
+                <p class="fw-normal fs-2 text-center text-light">The Most Memorable Rest Time Starts
+                    Here.</p>
+                <div class="">
+
+                </div>
 
                 <!-- Room 1 -->
-                <div class="rounded-3 py-3 ps-3 mx-1 mx-md-3 mx-lg-4 my-4 box-shad bg-light row">
+                <div class="rounded-3 py-3 ps-3 mx-1 mx-md-3 mx-lg-4 my-4 box-shad bg-light bg-opacity-75 row">
                     <div
                         class="col-lg-4 col-11 room-img rounded-3 box-shad ms-lg-1 ms-sm-3 ms-1 mb-2 d-flex justify-content-end align-items-end">
                         <span class="rounded-circle bg-light fs-5 mb-2 text-danger iconHeart"><i
@@ -194,8 +202,9 @@
                                 class="fa-regular fa-eye"></i></span>
                     </div>
                     <div class="ms-xl-5 ms-lg-3 me-lg-4 p-2 col-lg-4 col-12">
-                        <h2>Cozy Haven Room</h2>
-                        <p class="ms-lg-4 ms-2 me-lg-0 me-5 lead fw-normal mt-3 abo-para" id="abo-para1">Escape to comfort in our Cozy
+                        <h3 class="h2">Cozy Haven Room</h3>
+                        <p class="ms-lg-4 ms-2 me-lg-0 me-5 lead fw-normal mt-3 abo-para" id="abo-para1">Escape to
+                            comfort in our Cozy
                             Haven Room, a snug retreat
                             designed for
                             intimate relaxation.</p>
@@ -209,35 +218,43 @@
                     <div class="ms-md-3 ms-lg-0 ms-2 border border-2 col-lg-3 col-11 d-flex box-shado">
                         <ul class="list-unstyled fs-4 d-flex justify-content-evenly flex-wrap align-items-center w-100">
                             <li title="Free Wifi"
-                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4"><i
-                                    class="fa-solid fa-wifi"></i></li>
+                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4">
+                                <i class="fa-solid fa-wifi"></i>
+                            </li>
                             <li title="Air-conditioning"
-                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4"><i
-                                    class="fa-solid fa-fan"></i></li>
+                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4">
+                                <i class="fa-solid fa-fan"></i>
+                            </li>
                             <li title="Bathroom"
-                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4"><i
-                                    class="fa-solid fa-bath"></i></li>
+                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4">
+                                <i class="fa-solid fa-bath"></i>
+                            </li>
                             <li title="Clean Restroom"
-                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4"><i
-                                    class="fa-solid fa-restroom"></i></li>
+                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4">
+                                <i class="fa-solid fa-restroom"></i>
+                            </li>
                             <li title="Queen Size Bed"
-                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4"><i
-                                    class="fa-solid fa-bed"></i></li>
+                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4">
+                                <i class="fa-solid fa-bed"></i>
+                            </li>
                             <li title="Television Available"
-                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4"><i
-                                    class="fa-solid fa-tv"></i></li>
+                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4">
+                                <i class="fa-solid fa-tv"></i>
+                            </li>
                             <li title="Landline facility"
-                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4"><i
-                                    class="fa-solid fa-phone"></i></li>
+                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4">
+                                <i class="fa-solid fa-phone"></i>
+                            </li>
                             <li title="Housekeeping Service"
-                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4"><i
-                                    class="fa-solid fa-broom"></i></li>
+                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4">
+                                <i class="fa-solid fa-broom"></i>
+                            </li>
                         </ul>
                     </div>
                 </div>
 
                 <!-- Room 2 -->
-                <div class="rounded-3 py-3 ps-3 mx-1 mx-md-3 mx-lg-4 my-4 box-shad bg-light row">
+                <div class="rounded-3 py-3 ps-3 mx-1 mx-md-3 mx-lg-4 my-4 box-shad bg-light bg-opacity-75 row">
                     <div
                         class="col-lg-4 col-11 room-img-2 rounded-3 box-shad ms-lg-1 ms-sm-3 ms-1 mb-2 d-flex justify-content-end align-items-end">
                         <span class="rounded-circle bg-light fs-5 mb-2 text-danger" id="iconHeart"><i
@@ -250,8 +267,9 @@
                                 class="fa-regular fa-eye"></i></span>
                     </div>
                     <div class="ms-xl-5 ms-lg-3 me-lg-4 p-2 col-lg-4 col-12">
-                        <h2>Spacious Serenity Suite</h2>
-                        <p class="ms-lg-4 ms-2 me-lg-0 me-5 lead fw-normal mt-3 abo-para" id="para-abo">Indulge in luxury and ample
+                        <h3 class="h2">Spacious Serenity Suite</h3>
+                        <p class="ms-lg-4 ms-2 me-lg-0 me-5 lead fw-normal mt-3 abo-para" id="para-abo">Indulge in
+                            luxury and ample
                             space in our Spacious
                             Serenity Suite, where
                             tranquility meets roomy elegance.</p>
@@ -265,29 +283,37 @@
                     <div class="ms-md-3 ms-lg-0 ms-2 border border-2 col-lg-3 col-11 d-flex box-shado">
                         <ul class="list-unstyled fs-4 d-flex justify-content-evenly flex-wrap align-items-center w-100">
                             <li title="Free Wifi"
-                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4"><i
-                                    class="fa-solid fa-wifi"></i></li>
+                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4">
+                                <i class="fa-solid fa-wifi"></i>
+                            </li>
                             <li title="Air-conditioning"
-                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4"><i
-                                    class="fa-solid fa-fan"></i></li>
+                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4">
+                                <i class="fa-solid fa-fan"></i>
+                            </li>
                             <li title="Bathroom"
-                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4"><i
-                                    class="fa-solid fa-bath"></i></li>
+                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4">
+                                <i class="fa-solid fa-bath"></i>
+                            </li>
                             <li title="Clean Restroom"
-                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4"><i
-                                    class="fa-solid fa-restroom"></i></li>
+                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4">
+                                <i class="fa-solid fa-restroom"></i>
+                            </li>
                             <li title="Queen Size Bed"
-                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4"><i
-                                    class="fa-solid fa-bed"></i></li>
+                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4">
+                                <i class="fa-solid fa-bed"></i>
+                            </li>
                             <li title="Television Available"
-                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4"><i
-                                    class="fa-solid fa-tv"></i></li>
+                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4">
+                                <i class="fa-solid fa-tv"></i>
+                            </li>
                             <li title="Landline facility"
-                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4"><i
-                                    class="fa-solid fa-phone"></i></li>
+                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4">
+                                <i class="fa-solid fa-phone"></i>
+                            </li>
                             <li title="Housekeeping Service"
-                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4"><i
-                                    class="fa-solid fa-broom"></i></li>
+                                class="ms-md-3 me-xl-4 mt-md-3 mb-md-2 mt-2 py-md-1 px-md-2 px-1 border border-1 rounded-4">
+                                <i class="fa-solid fa-broom"></i>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -317,24 +343,145 @@
                         </p>
                     </div>
                 </div>
-
             </section>
             <br><br><br>
 
             <!-- Services -->
-            <section class="row" id="Services">
+            <section class="row text-light" id="Services">
+                <div class="col-md-3 d-none d-md-flex justify-content-md-center align-items-md-end my-md-5">
+                    <div
+                        class="bg-secondary bg-opacity-75 pb-3 pt-4 text-center border border-1 rounded-3 box-shad border-dark w-75">
+                        <h3>100+</h3>
+                        <p class="fs-5">Bookings Completed</p>
+                    </div>
+                </div>
 
+                <div class="col-md-6 p-3 rounded-4 bg-secondary bg-opacity-75 text-center my-md-4 my-3 box-shad">
+                    <h2 class="h1 fst-italic fw-bolder">OUR SERVICES</h2>
+                    <p class="fs-5 fw-normal">Strive Only For The Best.</p>
+                    <div class="my-4 text-bg-light d-flex justify-content-start pt-2">
+                        <p class="lead fw-medium fs-4 fst-italic ms-5"><i class="fa-solid fa-shield-heart"></i> High
+                            Class Security</p>
+                    </div>
+                    <div class="my-4 text-bg-light d-flex justify-content-start justify-content-lg-end pt-2">
+                        <p class="lead fw-medium fs-4 fst-italic me-lg-5 ms-5"><i class="fa-solid fa-clock"></i> 24
+                            Hours Room
+                            Service</p>
+                    </div>
+                    <div class="my-4 text-bg-light d-flex justify-content-start pt-2">
+                        <p class="lead fw-medium fs-4 fst-italic ms-5"><i class="fa-solid fa-utensils"></i>
+                            Restaurant
+                        </p>
+                    </div>
+                    <div class="my-4 text-bg-light d-flex justify-content-start justify-content-lg-end pt-2">
+                        <p class="lead fw-medium fs-4 fst-italic me-lg-5 ms-5"><i class="fa-solid fa-map"></i>
+                            Tourist Guide
+                            Support</p>
+                    </div>
+                    <div class="my-4 text-bg-light d-flex justify-content-start pt-2">
+                        <p class="lead fw-medium fs-4 fst-italic ms-5"><i class="fa-solid fa-square-parking"></i>
+                            Parking facility</p>
+                    </div>
+                </div>
+
+                <div class="d-flex d-md-none justify-content-center align-items-end my-2">
+                    <div
+                        class="bg-secondary bg-opacity-75 pb-3 pt-4 text-center border border-1 rounded-3 box-shad border-dark w-75">
+                        <h3>100+</h3>
+                        <p class="fs-5">Bookings Completed</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 d-flex justify-content-center align-items-end my-md-5 mt-2 mb-4">
+                    <div
+                        class="bg-secondary bg-opacity-75 pb-3 pt-4 text-center border border-1 rounded-3 box-shad border-dark w-75">
+                        <h3>150+</h3>
+                        <p class="fs-5">Happy Customers</p>
+                    </div>
+                </div>
             </section>
             <br><br><br>
 
             <!-- Gallery -->
-            <section class="row" id="Gallery">
+            <section class="row px-1 pt-3 pb-5" id="Gallery">
+                <h2 class="h1 text-light mb-4 me-5 text-end fw-bolder">
+                    <div class="line1 me-4 my-2 bg-light"></div>GALLERY
+                </h2>
+                <div class="container-fluid">
+                    <div class="row g-3 row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+                        <div class="col">
+                            <img src="./Assets/out.jpg" alt="Guest house image"
+                                class="img-thumbnail img-fluid rounded-3 w-100 gallery-item">
+                        </div>
+                        <div class="col">
+                            <img src="./Assets/recep.jpg" alt="Reception Image"
+                                class="img-thumbnail img-fluid rounded-3 w-100 gallery-item">
+                        </div>
+                        <div class="col">
+                            <img src="./Assets/small.jpg" alt="Room 1 Image"
+                                class="img-thumbnail img-fluid rounded-3 w-100 gallery-item">
+                        </div>
+                        <div class="col">
+                            <img src="./Assets/large.jpg" alt="Room 2 Image"
+                                class="img-thumbnail img-fluid rounded-3 w-100 gallery-item">
+                        </div>
+                        <div class="col">
+                            <img src="./Assets/room1.jpg" alt="Room 2 another image"
+                                class="img-thumbnail img-fluid rounded-3 w-100 gallery-item">
+                        </div>
+                        <div class="col">
+                            <img src="./Assets/ayodhya.webp" alt="Mountain 1 Image"
+                                class="img-thumbnail img-fluid rounded-3 w-100 gallery-item">
+                        </div>
+                        <div class="col">
+                            <img src="./Assets/baranti.webp" alt="Mountain 2 Image"
+                                class="img-thumbnail img-fluid rounded-3 w-100 gallery-item">
+                        </div>
+                        <div class="col">
+                            <img src="./Assets/palash.webp" alt="Flower Garden Image"
+                                class="img-thumbnail img-fluid rounded-3 w-100 gallery-item">
+                        </div>
+                        <div class="col">
+                            <img src="./Assets/mithonDam.webp" alt="Dam Image"
+                                class="img-thumbnail img-fluid rounded-3 w-100 gallery-item">
+                        </div>
+                        <div class="col">
+                            <img src="./Assets/flower.jpg" alt="Flowers Image"
+                                class="img-thumbnail img-fluid rounded-3 w-100 gallery-item">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="./Assets/small.jpg" alt="Guest House" class="modal-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </section>
             <br><br><br>
 
             <!-- Contact -->
             <section class="row" id="Contact">
+                <div class="my-5">
+                    <iframe class="rounded-3"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5017351225647!2d86.85721547510981!3d23.586332378782714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6e3fdd3ff9ebb%3A0x517a57e3f93c1807!2sKingsukh%20Guest%20House!5e0!3m2!1sen!2sin!4v1705088034844!5m2!1sen!2sin"
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6 offset-3 bg-info">
+                    <h2 class="fw-bolder">CONTACT US</h2>
+                </div>
 
             </section>
             <br><br><br>

@@ -51,7 +51,6 @@ body {
 
 .about {
     font-size: 40px;
-    letter-spacing: 5px;
 }
 
 .line {
@@ -134,8 +133,11 @@ body {
 /* --- */
 
 /* Rooms */
-.back-col {
-    background-color: #08BDBD;
+#Rooms {
+    background-image: url("./Assets/baranti.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .box-shado li {
@@ -182,8 +184,51 @@ body {
     opacity: 0.8;
     z-index: 1;
 }
+
+.line2 {
+    display: inline-block;
+    height: 2px;
+    width: 60px;
+}
 /* --- */
 
+/* Gallery */
+#Gallery {
+    background-image: url("./Assets/header.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Gallery img {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    height: 240px;
+}
+
+#gallery-modal .modal-img {
+    width: 100%;
+    height: 500px;
+}
+
+.line1 {
+    display: inline-block;
+    height: 2px;
+    width: 80px;
+}
+/* --- */
+
+/* Services */
+#Services {
+    background-image: url("./Assets/service.jpg");
+}
+/* --- */
+
+
+
+/* --- */
+#Services h2 , #Gallery h2 , #Rooms h2 , #About h2 , #Contact h2 {
+    letter-spacing: 5px;
+}
 
 /* Media Query */
 /* xs */
@@ -217,7 +262,6 @@ body {
     .space-adjust {
         margin: 12px 20px;
     }
-
 }
 
 /* lg */
@@ -261,6 +305,9 @@ body {
     }
     .room-img , .room-img-2 {
         height: 200px;
+    }
+    .line2 {
+        display: none;
     }
 }
 
