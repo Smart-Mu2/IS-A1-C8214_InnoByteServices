@@ -127,8 +127,9 @@
                     </div>
                 </div>
             </section>
+
             <!-- Navbar -->
-            <nav class="mb-2 nav-sticky">
+            <nav class="mb-2 nav-sticky z-3">
                 <ul class="nav-bar-list p-2 bg-danger mx-5 bor-radi box-shad">
                     <li class="nav-bar-link"><a href="#Home" class="text-light text-center"><i
                                 class="bi bi-house-heart-fill"></i> Home</a></li>
@@ -177,7 +178,7 @@
             <br><br><br>
 
             <!-- Rooms -->
-            <section class="container-fluid py-3" id="Rooms">
+            <section class="container-fluid py-3 mb-5" id="Rooms">
                 <h2 class="h1 text-center text-light">
                     <div class="line2 me-4 my-2 bg-light"></div>OUR LIVING ROOMS<div class="line2 ms-4 my-2 bg-light">
                     </div>
@@ -347,7 +348,7 @@
             <br><br><br>
 
             <!-- Services -->
-            <section class="row text-light" id="Services">
+            <section class="row text-light my-5" id="Services">
                 <div class="col-md-3 d-none d-md-flex justify-content-md-center align-items-md-end my-md-5">
                     <div
                         class="bg-secondary bg-opacity-75 pb-3 pt-4 text-center border border-1 rounded-3 box-shad border-dark w-75">
@@ -403,7 +404,7 @@
             <br><br><br>
 
             <!-- Gallery -->
-            <section class="row px-1 pt-3 pb-5" id="Gallery">
+            <section class="row px-1 pt-3 pb-5 my-5" id="Gallery">
                 <h2 class="h1 text-light mb-4 me-5 text-end fw-bolder">
                     <div class="line1 me-4 my-2 bg-light"></div>GALLERY
                 </h2>
@@ -472,22 +473,82 @@
             <br><br><br>
 
             <!-- Contact -->
-            <section class="row" id="Contact">
-                <div class="my-5">
-                    <iframe class="rounded-3"
+            <section class="row my-5 pt-3" id="Contact">
+                <div class="col-md-7 col-lg-6 col-12">
+                    <h2 class="fw-bolder text-end h1 text-danger">CONTACT US</h2>
+                    <div class="container-fluid rounded-4 pt-4 ps-4 pb-5 text-bg-danger">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 d-flex">
+                                <i class="fa-solid fa-map-location-dot fs-3 me-3"></i>
+                                <p>Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156</p>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="mb-3">
+                                    <i class="fa-solid fa-envelope fs-3 me-xl-3 me-md-1 me-3"></i>
+                                    <a class="text-light text-decoration-none fon-size"
+                                        href="mailto: kkghosh0099@gmail.com">kkghosh0099@gmail.com</a>
+                                </div>
+                                <div class="mt-3">
+                                    <i class="fa-solid fa-phone-volume fs-3 me-3"></i>
+                                    <a class="text-light text-decoration-none" href="tel:+919007062180">+91
+                                        9007062180</a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="d-flex justify-content-end list-unstyled gap-4 me-5 mt-3">
+                            <li>
+                                <a class="text-light text-decoration-none" href="https://wa.link/at5ion"
+                                    target="_blank"><i class="fa-brands fa-whatsapp fs-3"></i></a>
+                            </li>
+                            <li>
+                                <a class="text-light text-decoration-none"
+                                    href="https://www.instagram.com/kingsukhguesthouse/" target="_blank">
+                                    <i class="fa-brands fa-instagram fs-3"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-light text-decoration-none" href="#"><i
+                                        class="fa-brands fa-facebook fs-3"></i></a>
+                            </li>
+                            <li>
+                                <a class="text-light text-decoration-none" href="#"><i
+                                        class="fa-brands fa-square-x-twitter fs-3"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container-fluid d-flex justify-content-center top-fix">
+                        <div class="row g-3 rounded-4 p-3 bg-light text-danger box-shad">
+                            <h3>Send a Message</h3>
+                            <div class="col-6">
+                                <input type="text" class="form-control" placeholder="First Name" aria-label="First name" required>
+                            </div>
+                            <div class="col-6">
+                                <input type="text" class="form-control" placeholder="Last Name" aria-label="Last name" required>
+                            </div>
+                            <div class="col-6">
+                                <input type="email" class="form-control" placeholder="Email Address" aria-label="Email" required>
+                            </div>
+                            <div class="col-6">
+                                <input type="text" class="form-control" placeholder="Mobile Number" aria-label="Phone number" required>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" placeholder="Write your message here..." required></textarea>
+                            </div>
+                            <div class="col-4 offset-4">
+                                <button type="submit" class="btn btn-danger w-100">SEND</button>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-6 col-12">
+                    <iframe class="rounded-3 hei-frame"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5017351225647!2d86.85721547510981!3d23.586332378782714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6e3fdd3ff9ebb%3A0x517a57e3f93c1807!2sKingsukh%20Guest%20House!5e0!3m2!1sen!2sin!4v1705088034844!5m2!1sen!2sin"
-                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        width="100%" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="col-md-6 offset-3 bg-info">
-                    <h2 class="fw-bolder">CONTACT US</h2>
-                </div>
-
             </section>
             <br><br><br>
-
         </main>
-
         <!-- Footer -->
         <footer>
             <!-- <h2 class="text-dark">Footer</h2> -->

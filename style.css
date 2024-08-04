@@ -223,7 +223,15 @@ body {
 }
 /* --- */
 
+/* Contact */
+.top-fix {
+    position: relative;
+    top: -5%;
+}
 
+.top-fix > div {
+    width: 95%;
+}
 
 /* --- */
 #Services h2 , #Gallery h2 , #Rooms h2 , #About h2 , #Contact h2 {
@@ -262,6 +270,12 @@ body {
     .space-adjust {
         margin: 12px 20px;
     }
+    .fon-size {
+        font-size: 12px;
+    }
+    .hei-frame {
+        height: 550px;
+    }
 }
 
 /* lg */
@@ -273,6 +287,9 @@ body {
     .line {
         height: 6px;
         width: 200px;
+    }
+    .fon-size {
+        font-size: 14px;
     }
 }
 
@@ -309,12 +326,19 @@ body {
     .line2 {
         display: none;
     }
+    .hei-frame {
+        height: 350px;
+    }
 }
 
 
 
 /* xl */
-@media screen and (min-width:1200px) {}
+@media screen and (min-width:1200px) {
+    .fon-size {
+        font-size: 16px;
+    }
+}
 
 /* xxl */
 @media screen and (min-width:1400px) {}
