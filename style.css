@@ -49,10 +49,6 @@ body {
     height: 500px;
 }
 
-#About a {
-    font-size: 18px;
-}
-
 .about {
     font-size: 40px;
 }
@@ -66,6 +62,10 @@ body {
 
 .abo-para {
     text-align: justify;
+}
+
+.abo-para a {
+    font-size: 18px;
 }
 /* --- */
 
@@ -148,6 +148,11 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.box-shado li:hover {
+    background-color: black;
+    color: white;
+}
+
 .room-img {
     background-image: url("./Assets/small.jpg");
 }
@@ -165,8 +170,13 @@ body {
 
 .room-img span , .room-img-2 span {
     padding: 2px 8px;
+    background-color: #fff;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+}
+
+.room-img span:hover , .room-img-2 span:hover {
+    background-color: #000;
 }
 
 .iconHeartFill , #iconHeartFill {
@@ -197,9 +207,14 @@ body {
     background-repeat: no-repeat;
 }
 
-#Gallery img {
+#Gallery > .container-fluid img {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     height: 240px;
+}
+
+#Gallery > .container-fluid img:hover {
+    padding: 10px;
+    background-color: black;
 }
 
 #gallery-modal .modal-img {
@@ -279,6 +294,9 @@ body {
     .hei-frame {
         height: 550px;
     }
+    .about-img {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
 }
 
 /* lg */
@@ -298,6 +316,9 @@ body {
 
 @media screen and (max-width:1200px) {
     #abo-para{
+        font-size: 17px;
+    }
+    .abo-para a {
         font-size: 17px;
     }
 }
