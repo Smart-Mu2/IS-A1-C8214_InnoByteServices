@@ -256,9 +256,6 @@ body {
     text-align: justify;
 }
 /* --- */
-#Home , #About , #Rooms , #Services , #Gallery , #Contact {
-    height: 100%;
-}
 
 /* Media Query */
 /* xs */
