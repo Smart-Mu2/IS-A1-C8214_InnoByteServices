@@ -49,6 +49,10 @@ body {
     height: 500px;
 }
 
+#About a {
+    font-size: 18px;
+}
+
 .about {
     font-size: 40px;
 }
@@ -175,14 +179,7 @@ body {
 }
 
 #overlay1{
-    background-color: black;
     height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    opacity: 0.8;
-    z-index: 1;
 }
 
 .line2 {
@@ -234,7 +231,7 @@ body {
 }
 /* --- */
 
-#Services h2 , #Gallery h2 , #Rooms h2 , #About h2 , #Contact h2 {
+#Services h2 , #Gallery h2 , #Rooms h2 , #About h2 , #Contact h2 , #Home h1{
     letter-spacing: 5px;
 }
 /* --- */

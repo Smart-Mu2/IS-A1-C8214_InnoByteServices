@@ -21,8 +21,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -40,10 +38,11 @@
             <!-- Home -->
             <section class="row mb-5">
                 <header class="row mb-3 p-2" id="Home">
-                    <h1 class="col-8 h2 mt-2 text-danger fw-bolder">Kingsukh <span class="h4">Guest
-                            House</span></h1>
+                    <h1 class="col-8 mt-2 text-danger fw-bolder h2">Kingsukh <p class="h4 d-sm-inline">Guest
+                            House</p>
+                    </h1>
                     <span class="col-4 mt-2"><a href="https://wa.link/at5ion" target="_blank"
-                            class="btn btn-outline-danger p-2 fw-medium border border-2 border-danger float-end">
+                            class="btn btn-outline-danger px-1 py-2 p-sm-2 fw-medium border border-2 border-danger float-end">
                             BOOK NOW
                         </a></span>
                 </header>
@@ -69,21 +68,21 @@
 
                 <div class="col-md-4 d-flex justify-content-center align-items-center">
                     <div class="mob-view">
-                        <ul class="nav flex-column lead rounded-3 mt-lg-5 mx-lg-5 blur-bg" id="blur-bg">
+                        <ul class="nav flex-column lead rounded-3 mt-lg-5 mx-lg-5 blur-bg box-shad" id="blur-bg">
                             <li class="nav-item border-bottom">
-                                <a class="nav-link text-light" href="#About">About Us</a>
+                                <a class="fw-normal nav-link link-light link-opacity-75 link-opacity-100-hover" href="#About">About Us</a>
                             </li>
                             <li class="nav-item border-bottom">
-                                <a class="nav-link text-light" href="#Rooms">Our Living Rooms</a>
+                                <a class="fw-normal nav-link link-light link-opacity-75 link-opacity-100-hover" href="#Rooms">Our Living Rooms</a>
                             </li>
                             <li class="nav-item border-bottom">
-                                <a class="nav-link text-light" href="#Services">Our Services</a>
+                                <a class="fw-normal nav-link link-light link-opacity-75 link-opacity-100-hover" href="#Services">Our Services</a>
                             </li>
                             <li class="nav-item border-bottom">
-                                <a class="nav-link text-light" href="#Gallery">View Gallery</a>
+                                <a class="fw-normal nav-link link-light link-opacity-75 link-opacity-100-hover" href="#Gallery">View Gallery</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="#Contact">Contact Us</a>
+                                <a class="fw-normal nav-link link-light link-opacity-75 link-opacity-100-hover" href="#Contact">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -117,12 +116,12 @@
                             promising
                             a harmonious blend of nature's beauty and heartfelt hospitality. Explore the hidden gems of
                             Purulia, creating memories that linger long after your stay.</p>
-                        <p class="fw-medium"><a href="https://maps.app.goo.gl/7wYUEB4tvR7NMHbcA"
-                                target="_blank">Address:
+                        <p><a href="https://maps.app.goo.gl/7wYUEB4tvR7NMHbcA"
+                                target="_blank" class="fw-medium text-decoration-none link-danger">Address:
                                 Beside Barshal
                                 Water Tank, Manpur, Barhanti, West Bengal - 723156</a></p>
-                        <p class="fw-medium">
-                            <a href="tel:+919007062180"> Contact us: +91 9007062180 </a>
+                        <p>
+                            <a href="tel:+919007062180" class="fw-medium text-decoration-none link-danger"> Contact us: +91 9007062180 </a>
                         </p>
                     </div>
                 </div>
@@ -324,7 +323,7 @@
                         <img src="./Assets/small.jpg" alt="Room 1 Image" class="img-fluid img-thumbnail m-lg-0 m-3"
                             width="700px">
                     </div>
-                    <div id="overlay1">
+                    <div id="overlay1" class="bg-dark w-100 fixed-top bg-opacity-75 z-1">
                         <p class="text-bg-danger fs-3 fw-medium float-end mt-3 me-5 px-2 rounded-1"
                             onclick="closeView1()">
                             <i class="bi bi-x"></i>
@@ -337,7 +336,7 @@
                         <img src="./Assets/large.jpg" alt="Room 1 Image" class="img-fluid img-thumbnail m-lg-0 m-3"
                             width="700px">
                     </div>
-                    <div id="overlay1">
+                    <div id="overlay1" class="bg-dark w-100 fixed-top bg-opacity-75 z-1">
                         <p class="text-bg-danger fs-3 fw-medium float-end mt-3 me-5 px-2 rounded-1"
                             onclick="closeView2()">
                             <i class="bi bi-x"></i>
@@ -520,23 +519,28 @@
                         <div class="row g-3 rounded-4 p-3 bg-light text-danger box-shad">
                             <h3>Send a Message</h3>
                             <div class="col-sm-6 col-12">
-                                <input type="text" class="form-control" placeholder="First Name" aria-label="First name" required>
+                                <input type="text" class="form-control" placeholder="First Name" aria-label="First name"
+                                    required>
                             </div>
                             <div class="col-sm-6 col-12">
-                                <input type="text" class="form-control" placeholder="Last Name" aria-label="Last name" required>
+                                <input type="text" class="form-control" placeholder="Last Name" aria-label="Last name"
+                                    required>
                             </div>
                             <div class="col-sm-6 col-12">
-                                <input type="email" class="form-control" placeholder="Email Address" aria-label="Email" required>
+                                <input type="email" class="form-control" placeholder="Email Address" aria-label="Email"
+                                    required>
                             </div>
                             <div class="col-sm-6 col-12">
-                                <input type="text" class="form-control" placeholder="Mobile Number" aria-label="Phone number" required>
+                                <input type="text" class="form-control" placeholder="Mobile Number"
+                                    aria-label="Phone number" required>
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control" placeholder="Write your message here..." required></textarea>
+                                <textarea class="form-control" placeholder="Write your message here..."
+                                    required></textarea>
                             </div>
                             <div class="col-4 offset-4">
                                 <button type="submit" class="btn btn-danger w-100">SEND</button>
-                              </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -547,16 +551,17 @@
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
-            <br><br>
+            <br>
         </main>
-        <br>
+        <br><br>
 
         <!-- Footer -->
         <footer class="container-fluid text-bg-dark">
             <div class="row py-4 ps-4">
                 <div class="col-lg-3 col-sm-6 col-11 my-3">
                     <h2>Kingsukh <span class="h4">Guest House</span></h2>
-                    <p class="fs-5 mt-4 footAlign ps-2 text-white-50">Discover a world of comfort, luxury, and adventure as you
+                    <p class="fs-5 mt-4 footAlign ps-2 text-white-50">Discover a world of comfort, luxury, and adventure
+                        as you
                         explore our curated selection of hotels, making every moment of your getaway truly
                         extraordinary.</p>
                     <div class="mt-4 offset-2 col-9"><a href="https://wa.link/at5ion" target="_blank"
@@ -576,19 +581,24 @@
                             <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion1">
                                 <div class="accordion-body">
                                     <ul class="list-unstyled text-center">
-                                        <li class="mb-2"><a href="#" class="fs-5 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">Browse
+                                        <li class="mb-2"><a href="#"
+                                                class="fs-5 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">Browse
                                                 Destinations</a>
                                         </li>
                                         <li class="my-2"><a href="#"
-                                                class="fs-5 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">Special Offers &
+                                                class="fs-5 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">Special
+                                                Offers &
                                                 Packages</a></li>
-                                        <li class="my-2"><a href="#" class="fs-5 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">Room
+                                        <li class="my-2"><a href="#"
+                                                class="fs-5 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">Room
                                                 Types &
                                                 Amenities</a></li>
                                         <li class="my-2"><a href="#"
-                                                class="fs-5 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">Customer Reviews &
+                                                class="fs-5 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">Customer
+                                                Reviews &
                                                 Ratings</a></li>
-                                        <li class="mt-2"><a href="#" class="fs-5 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">Travel
+                                        <li class="mt-2"><a href="#"
+                                                class="fs-5 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">Travel
                                                 Tips &
                                                 Guides</a></li>
                                     </ul>
@@ -611,15 +621,19 @@
                                 <div class="accordion-body">
                                     <ul class="list-unstyled text-center">
                                         <li class="my-3"><a href="#"
-                                                class="fs-5 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">Concierge Assistance</a>
+                                                class="fs-5 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">Concierge
+                                                Assistance</a>
                                         </li>
                                         <li class="my-3"><a href="#"
-                                                class="fs-5 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">Flexible Booking
+                                                class="fs-5 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">Flexible
+                                                Booking
                                                 Options</a></li>
                                         <li class="my-3"><a href="#"
-                                                class="fs-5 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">Airport Transfers</a></li>
+                                                class="fs-5 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">Airport
+                                                Transfers</a></li>
                                         <li class="my-3"><a href="#"
-                                                class="fs-5 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">Wellness & Recreation</a>
+                                                class="fs-5 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">Wellness
+                                                & Recreation</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -632,7 +646,8 @@
                     <ul class="list-unstyled text-white-50">
                         <li class="my-3">
                             <h5>Address</h5><a href="https://maps.app.goo.gl/7wYUEB4tvR7NMHbcA"
-                                class="fs-6 text-decoration-none link-opacity-50 link-light link-opacity-100-hover" target="_blank">Beside Barshal Water Tank,
+                                class="fs-6 text-decoration-none link-opacity-50 link-light link-opacity-100-hover"
+                                target="_blank">Beside Barshal Water Tank,
                                 Manpur, Barhanti, West Bengal 723156</a>
                         </li>
                         <li class="my-3">
@@ -640,7 +655,8 @@
                                 class="fs-6 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">kkghosh0099@gmail.com</a>
                         </li>
                         <li class="my-3">
-                            <h5>Ph. No.</h5><a href="tel:+919007062180" class="fs-6 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">+91
+                            <h5>Ph. No.</h5><a href="tel:+919007062180"
+                                class="fs-6 text-decoration-none link-opacity-50 link-light link-opacity-100-hover">+91
                                 9007062180 </a>
                         </li>
                     </ul>
